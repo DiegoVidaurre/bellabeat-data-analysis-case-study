@@ -1,4 +1,4 @@
---TASK 1.
+--TASK 1. Comprehensive Descriptive Analysis of Physical Activity.
 select
 avg(totaldistance) filter (where totaldistance != 0) as promedio_distancia_total,
 	min(totaldistance) as distancia_total_minima,
@@ -15,7 +15,7 @@ avg(totaldistance) filter (where totaldistance != 0) as promedio_distancia_total
 from dailyactivity d;
 
 
---TASK 2.
+--TASK 2. User Segmentation by Physical Activity Level.
 -- Step 1: Create a virtual table and call it "clasificacion_usuarios"
 WITH clasificacion_usuarios AS (
    select
@@ -43,7 +43,7 @@ GROUP BY categoria_actividad
 ORDER BY total_usuarios DESC;
 
 
---TASK 3.
+--TASK 3. Analysis of Temporal Trends.
 select
 	extract(isodow from activitydate) as numero_dia,
 	to_char (activitydate,'Day') as nombre_dia,
@@ -59,7 +59,7 @@ order by
 	numero_dia asc;
 
 
---TASK 4.
+--TASK 4. Analysis of Physical Intensity by Time Slot (Shifts)
 -- Step 1: Create virtual table called "clasificacion_turnos"
 with clasificacion_turnos as (
   select
