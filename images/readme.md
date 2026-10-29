@@ -1,3 +1,3 @@
 # Folder for project charts and visual assets
 
-![Gráfico de Actividad por Franja Horaria](images/image1.png)
+![Personalizing the In-App Experience](images/image1.png)
