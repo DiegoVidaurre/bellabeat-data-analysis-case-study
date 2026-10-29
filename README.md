@@ -8,7 +8,7 @@ The project follows Google’s data analysis framework: **Ask, Prepare, Process,
 ---
 
 ## 🛠️ Tech Stack & Methodology
-* **Data Processing & Analysis:** SQL (PostgreSQL)
+* **Data Processing & Analysis:** SQL (PostgreSQL) and Python
 * **Data Visualization:** Data Storytelling / Custom Dashboards (Tableau)
 * **Framework:** Google Data Analytics 6-Step Process
 * **Dataset:** FitBit Fitness Tracker Data (Public Domain via Kaggle)
